@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css">
+    <script src="script/main.js"></script>
+
+    <!--Importation des fonts (Google)-->
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:Light' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Clément Armand</title>
+    <link href='https://png.icons8.com/wired/40/000000/bicycle.png' rel='icon'>
+
+</head>
+
+<body>
+    <!--Bannière-->
+    <div id="banner">
+        <img src="images/lambda_banner.png" alt="bannière" style="width:100%;">
+        <a href="./index.html">
+            <h1 id="mh1"><strong>Clément Armand</strong></h1>
+        </a>
+    </div>
+
+    <!--Barre de navigation-->
+    <nav>
+        <ul id="nav">
+            <li><a href="./index.html"><img class="navicon" src="https://png.icons8.com/wired/40/000000/bicycle.png">Accueil</a></li>
+            <li><a href="#articles"><img class="navicon" src="https://img.icons8.com/ios/40/000000/news.png">Articles</a></li>
+            <li><a href="#videos"><img class="navicon" src="https://img.icons8.com/ios/40/000000/youtube.png">Vidéos</a></li>
+            <li><a href="#contact"><img class="navicon" src="https://img.icons8.com/wired/40/000000/email.png">Contact</a></li>
+            <li id="panier"><a href="#panier"><img class="navicon" src="https://png.icons8.com/color/50/000000/shopping-basket.png">Mon
+                    Panier</a></li>
+        </ul>
+    </nav>
+
+    <!--Barre latérale droite-->
+    <aside>
+        <div class="malist">
+            <form method="POST" class="mailinglist" action="form-to-email.php">
+                <div class="malist">
+                    <label for="email">Entre ton email : <br></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="malist">
+                    <br>
+                    <input type="submit" value="Inscris-toi !">
+                </div>
+            </form>
+        </div>
+    </aside>
+
+    <!--Corps de texte-->
+    <div id="main">
+        <h2>Derniers articles :</h2>
+        <article>
+            <div class="image-wrapper">
+                <img src="https://indibikes.files.wordpress.com/2012/07/indibikes_bike-nature.jpg">
+                <span>Singe faisant du vélo.</span>
+            </div>
+
+            <h3>Pourquoi les gilets jaunes ?</h3>
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ipsum dui, facilisis a sollicitudin
+                non, tincidunt ultrices quam. Donec iaculis ante non ante vulputate, sit amet porttitor lorem vehicula.
+                Suspendisse urna justo, consequat ac faucibus id, fermentum vestibulum metus. Sed quis hendrerit
+                ligula. Mauris ultricies tincidunt erat, dignissim vehicula dui dapibus at.</p>
+            <br><a class="lireplus" href="articles/lorem-ipsum.html"><span><img class="navicon" src="https://img.icons8.com/ios/40/000000/news.png">Lire
+                    plus</span></a>
+        </article>
+        <br>
+        <article>
+            <div class="image-wrapper">
+                <img src="https://indibikes.files.wordpress.com/2012/07/indibikes_bike-nature.jpg">
+                <span>Singe faisant du vélo.</span>
+            </div>
+
+            <h3>Pourquoi les gilets jaunes ?</h3>
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ipsum dui, facilisis a sollicitudin
+                non, tincidunt ultrices quam. Donec iaculis ante non ante vulputate, sit amet porttitor lorem vehicula.
+                Suspendisse urna justo, consequat ac faucibus id, fermentum vestibulum metus. Sed quis hendrerit
+                ligula. Mauris ultricies tincidunt erat, dignissim vehicula dui dapibus at.</p>
+            <br><a class="lireplus" href="articles/lorem-ipsum.html"><span><img class="navicon" src="https://img.icons8.com/ios/40/000000/news.png">Lire
+                    plus</span></a>
+        </article>
+
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div>
+            <span>Oui, effectivement.</span>
+        </div>
+        <div align="right">
+        <ul class="icon-bar">
+            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="google"><a href="#"><i class="fa fa-google"></i></a></li>
+            <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+body {
+    background-color: #fafafa;
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#mh1 {
+    font-family: "Sofia";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+}
+
+#nav {
+    font-family: "Roboto Light";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#nav li {
+    width: 175px;
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #fafafa;
+}
+
+#nav #panier {
+    float: right;
+    background-color: #efe;
+}
+
+.navicon {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-right: 8px;
+    height: 25px;
+    width: 25px;
+    vertical-align: top;
+    clip: auto;
+}
+
+aside {
+    font-family: "Roboto Light";
+    float: right;
+    width: 15%;
+    padding: .5rem;
+    margin-top: 30px;
+    margin-left: .5rem;
+    background-color: #fff;
+}
+
+.malist input {
+    font-family: "Roboto";
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+
+#main {
+    width: 75%;
+    background-color: #fff;
+    font-family: "Roboto";
+    margin: 30px;
+    padding: 30px;
+}
+
+#main article {
+    background: #fafafa;
+    padding: .3rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#main article h3 {
+    width: 700px;
+}
+
+.image-wrapper {
+    width: 200px;
+    float: right;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    margin: 15px 30px 75px 30px;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.image-wrapper span {
+    font-family: "Roboto Light";
+    color: #aaa;
+}
+
+.lireplus {
+    border-radius: 4px;
+    background-color: #fff;
+    border: .5px solid #323232;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    width: 142px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.lireplus span {
+    font-family: "Roboto Light";
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.lireplus span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.lireplus:hover span {
+    padding-right: 25px;
+}
+
+.lireplus:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+footer {
+    padding: 15px;
+    height: 150px;
+    background: #afafaf;
+}
+
+.icon-bar {
+    list-style-type: none;
+}
+
+.icon-bar li {
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    background-color: #afafaf;
+    display: inline;
+}
+
+.icon-bar a {
+    color: white;
+    font-size: 20px;
+}
+
+.facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+.google:hover {
+    background: #dd4b39;
+    color: white;
+}
+
+.youtube:hover {
+    background: #bb0000;
+    color: white;
+}
